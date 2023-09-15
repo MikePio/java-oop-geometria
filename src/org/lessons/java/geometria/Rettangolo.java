@@ -21,8 +21,9 @@ public class Rettangolo {
 	}
 	
 	//metodo
-	public void calcolaPerimetro() {
+	int calcolaPerimetro() {
 		int perimetro = (base + altezza)*2;
 		System.out.println("Perimetro: " + perimetro);
+		return perimetro;
 	}
 }
